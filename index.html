@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet the Legend</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Landing Section -->
+    <section class="landing">
+        <h1>Meet the Legend!</h1>
+        <p>A Tribute to [Friend's Name]</p>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>A Walk Through the Ages</h2>
+        <div class="photo-grid">
+            <!-- 20 images with captions -->
+            <!-- You can replace `photo1.jpg`, `photo2.jpg` etc., with actual image names -->
+            <!-- Example Image Blocks -->
+            <div class="photo" onclick="openLightbox('images/photo1.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo2.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo3.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo4.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo5.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo6.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo7.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo8.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo9.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo10.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo11.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo12.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo13.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo14.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo15.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo16.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo17.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo18.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo19.jpg')">
+                <img src="images/photo1.jpg" alt="Funny Caption 1">
+                <p>Caption 1</p>
+            </div>
+            <div class="photo" onclick="openLightbox('images/photo20.jpg')">
+                <img src="images/photo2.jpg" alt="Funny Caption 2">
+                <p>Caption 2</p>
+            </div>
+          
+            <!-- Repeat for all 20 photos -->
+        </div>
+    </section>
+
+    <!-- Highlight Section -->
+    <section class="highlights">
+        <h2>His Best Moments</h2>
+        <p>Check out some unforgettable moments that make him who he is!</p>
+    </section>
+
+    <!-- Message Section -->
+    <section class="messages">
+        <h2>Leave a Message</h2>
+        <div class="message-box">
+            <input type="text" placeholder="Leave a message here" id="messageInput">
+            <button onclick="addMessage()">Submit</button>
+        </div>
+        <ul id="messagesList"></ul>
+    </section>
+
+    <!-- End Section -->
+    <section class="end">
+        <h2>Congratulations to the New Journey!</h2>
+        <p>Wishing [Friend's Name] a lifetime of happiness and joy!</p>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImg" src="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
